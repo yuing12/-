@@ -1,7 +1,5 @@
 # 여행 도우미 사이트
-
-<p align="center"><첫페이지></>
-<p align="center"><img src="https://user-images.githubusercontent.com/94040016/159269964-cfa82266-fde3-4458-8975-d90e8f1448c6.gif"/></>
+<p align="center"><img src="https://user-images.githubusercontent.com/94040016/159272117-96bb2022-0f41-46dd-bd57-ca8845b1c5be.gif"/></>
 
 ### 간단한 개발배경 및 목적
 - 기존 사이트들은 저희가 이용했을 때 숙소, 비행기 예약이라는 서비스말곤 그 외에 여행지 탐색할 수 있는 맛집, 카페 등을 한눈에 볼 수 있게 서비스를 제공해 놓지 않아서 조금 아쉬웠습니다. 그래서 여행 일정을 한눈에 짜게 도와주는 사이트를 한번 만들어보고 싶어서 여행 도우미가 되어주는 '어디가지?' 프로젝트를 시작하게 되었습니다.
