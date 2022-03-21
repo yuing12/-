@@ -16,4 +16,5 @@
 ![image](https://user-images.githubusercontent.com/94040016/159266110-f66b9076-7dbc-4ce4-be5b-0bd275779ce0.png)
 
 #### 로고
+![최종로고](https://user-images.githubusercontent.com/94040016/159267886-58ea9cad-9cb7-4ca3-8c12-ae93d4b78475.png)
 
