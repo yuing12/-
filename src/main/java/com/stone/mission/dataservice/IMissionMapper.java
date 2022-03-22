@@ -55,7 +55,6 @@ public interface IMissionMapper {
 	
 	//조회수증가
 	@Update("update mission set views=views+1 where no=#{no}")
-	 //("update board set views=views+1 where no=?");
 	void increaseInViews(@Param("no") int missionNo);
 	
 	//글번호찾기
