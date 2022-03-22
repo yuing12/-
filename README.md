@@ -25,3 +25,13 @@
 ### 전체 모델링
 ![image](https://user-images.githubusercontent.com/94040016/159266110-f66b9076-7dbc-4ce4-be5b-0bd275779ce0.png)
 
+### test
+  <공지사항>
+  
+![공지사항](https://user-images.githubusercontent.com/94040016/159425146-96926afa-758c-44bb-b5e3-3d0c46cbe6f3.gif)
+
+<꿀 미션>
+
+![꿀미션](https://user-images.githubusercontent.com/94040016/159425153-d5746b6d-301e-4664-8901-341ef7511246.gif)
+
+
