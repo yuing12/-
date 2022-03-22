@@ -2,7 +2,7 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/94040016/159272117-96bb2022-0f41-46dd-bd57-ca8845b1c5be.gif"/></>
 
 ### 팀 프로젝트
-- 기간 : 2022.2.9~2022.3.2
+- 기간 : 2022.2.8~2022.2.28
 - 팀원 : 4명
   
 ### 역할 분담
