@@ -1,4 +1,6 @@
-
+/* 작성자 : 조유진
+ 미션창 : 미션 인증을 할 수 있는 기능
+*/
 package com.stone.mission.presentation;
 
 import java.util.List; 
@@ -44,7 +46,7 @@ public class Mission_Contolle {
 	
 	// 등록준비
 	@GetMapping("/mission_clear")
-	public String writeMission() {
+	public String writeAnotice() {
 		if(mission_Manager.RegistrationPreparation()) {
 			return "main3/mission/sub_mission_clear";
 		}
@@ -95,6 +97,7 @@ public class Mission_Contolle {
 		    		 }
 		    	 }
 		    }
+		    System.out.println(로그인회원와게시물작성자가동일인물인가);
 			mv.addObject("isWriter", 로그인회원와게시물작성자가동일인물인가);
 	      return mv;
 	  
@@ -104,6 +107,7 @@ public class Mission_Contolle {
 	  @GetMapping("/mission_update/{missionNo}")
 		public ModelAndView prepareForChange(@PathVariable int missionNo,HttpSession session) {
 		  Mission found=mission_Manager.prepareForChange(missionNo);
+			System.out.println(missionNo);
 			ModelAndView mv=new ModelAndView();
 			mv.setViewName("main3/mission/sub_mission_Change");
 			mv.addObject("missions",found);
@@ -116,13 +120,16 @@ public class Mission_Contolle {
 	  @PostMapping("/mission_update/update") 
 	  ModelAndView change(Mission changeMiision) {
 		  mission_Manager.permute(changeMiision);
+		  
+		  System.out.println(changeMiision.getTitle());
+		  System.out.println(changeMiision.getContents());
 	  
 	  ModelAndView mv =new ModelAndView();
 	  mv.setViewName("main3/mission/sub_mission_Change_Completed"); 
 	  return mv;
 	 
 	  }
-	
+	 
 	  @GetMapping("/mission_delete/{missionNo}") 
 	  ModelAndView delete(@PathVariable int missionNo, HttpSession session){ 
 		  mission_Manager.delete(missionNo);
@@ -132,3 +139,4 @@ public class Mission_Contolle {
 	 return mv; 
 	 }
 }
+
