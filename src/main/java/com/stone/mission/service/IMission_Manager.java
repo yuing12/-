@@ -19,7 +19,7 @@ public interface IMission_Manager {
 		public List<Mission> allList();
 		
 		//Board 조회하다(int 게시물번호);
-		public Mission View(int missionNo);
+		Mission View(int missionNo);
 		
 		//Board 조회수증가하다(int 게시물번호);
 		void increaseInViews(int missionNo);
