@@ -22,9 +22,9 @@ import com.stone.notice.common.Notice;
 public interface INoticeMapper {
 	
 	//저장
-	@Insert("insert into notice(title,contents,user_no) values(#{title},#{contents},#{user_no})")
+	@Insert("insert into notice(title,contents) values(#{title},#{contents})")
 	//("insert into board(title,contents,writer) values(?,?,?)");
-	 void save(Notice newNotice);
+	 void save(Notice newNotice); 
 	
 	//수집
 	@Select("select * from notice ORDER BY date DESC")
@@ -69,7 +69,7 @@ public interface INoticeMapper {
 	Notice findAnumber(int noticeNo);
 	
 	//글변경
-	@Update("update notice set title=#{title},contents=#{contents}")
+	@Update("update notice set title=#{title},contents=#{contents} where no=#{no}")
 	//("update board set title=?,contents=?,where no=?");
 	void permute(Notice changeNotice);
 
