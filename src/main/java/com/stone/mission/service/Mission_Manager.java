@@ -48,7 +48,7 @@ public class Mission_Manager implements IMission_Manager {
 	//Board 조회수증가하다(int 게시물번호)
 	@Override
 	public void increaseInViews(int missionNo) {
-	 missionDAO.increaseInViews(missionNo);
+		 missionDAO.increaseInViews(missionNo);
 	}
 
 	//Prepare for change : 변경준비
