@@ -47,6 +47,7 @@ public class MissionDAO implements IMissionDAO {
 	public void increaseInViews(int missionNo) {
 		 missionMapper.increaseInViews(missionNo);
 	}
+
 	//번호를찾다
 	@Transactional
 	@Override
@@ -69,6 +70,7 @@ public class MissionDAO implements IMissionDAO {
 		missionMapper.delete(missionNo);
 		
 	}
+
 
 
 
