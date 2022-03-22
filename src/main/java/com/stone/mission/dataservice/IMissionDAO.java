@@ -15,13 +15,13 @@ public interface IMissionDAO {
 	public List<Mission> collectAllNotices();
 	
 	//조회수
-	 public Mission view(int missionNo);
+	Mission view(int missionNo);
 	
 	//조회수증가하다
-	 public  void increaseInViews(int missionNo);
+	void increaseInViews(int missionNo);
 	
 	//미션 클리어 글 중 보고 싶은 글 찾기
-	 public Mission findAnumber(int missionNo);
+	Mission findAnumber(int missionNo);
 	
 	//변경
 	public void permute(Mission changeMission);
@@ -31,4 +31,6 @@ public interface IMissionDAO {
 
 	
 }
+
+
 
